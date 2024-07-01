@@ -1,13 +1,14 @@
-# Shorten URL - Backend Application
+# Shorten URL - Backend and Frontend Application
 
 ## Project Description
 
-Shorten URL is a backend application designed to shorten long URLs and provide analytics to track the number of clicks on the shortened URLs. This application is built using Node.js, Express.js, Mongoose, MongoDB Compass, and Postman.
+Shorten URL is a full-stack application designed to shorten long URLs and provide analytics to track the number of clicks on the shortened URLs. This application is built using Node.js, Express.js, Mongoose, MongoDB Compass, EJS, and Postman.
 
 ## Features
 
 - **URL Shortening**: Convert long URLs into shorter, more manageable links.
 - **Click Analytics**: Track the number of clicks on each shortened URL to provide insights into link performance.
+- **Frontend Interface**: User-friendly interface to shorten URLs and view analytics.
 
 ## Technologies Used
 
@@ -15,6 +16,7 @@ Shorten URL is a backend application designed to shorten long URLs and provide a
 - **Express.js**: Web application framework for Node.js to create the backend server.
 - **Mongoose**: ODM (Object Data Modeling) library for MongoDB and Node.js.
 - **MongoDB Compass**: GUI for managing and interacting with the MongoDB database.
+- **EJS**: Embedded JavaScript templates for rendering the frontend.
 - **Postman**: API client for testing and debugging the application.
 
 ## Installation
@@ -81,6 +83,20 @@ Shorten URL is a backend application designed to shorten long URLs and provide a
     }
     ```
 
+## Frontend
+
+The application includes a frontend interface developed using EJS, which allows users to shorten URLs and view analytics.
+
+### Home Page
+
+- **URL**: `/`
+- **Description**: Provides a form to input a long URL and receive a shortened URL.
+
+### Analytics Page
+
+- **URL**: `/analytics/:code`
+- **Description**: Displays the click analytics for a specific shortened URL.
+
 ## Testing
 
 You can use Postman to test the API endpoints. Import the collection from the `postman` directory in the repository and run the requests to see the API in action.
@@ -101,9 +117,12 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Thank you for using Shorten URL! If you have any questions or need further assistance, please open an issue on GitHub.
 
----![Screenshot 2024-06-27 193036](https://github.com/Shubhr457/Backend-App-shortenURL/assets/136572711/d613d517-03bf-468d-a7de-0fbe8d9d9241)
+---
+
+![Screenshot 2024-06-27 193036](https://github.com/Shubhr457/Backend-App-shortenURL/assets/136572711/d613d517-03bf-468d-a7de-0fbe8d9d9241)
 ![Screenshot 2024-06-27 193011](https://github.com/Shubhr457/Backend-App-shortenURL/assets/136572711/47f4076d-bf29-40fd-b7f1-cafa1760cbbc)
 ![Screenshot 2024-06-27 192951](https://github.com/Shubhr457/Backend-App-shortenURL/assets/136572711/b61e4f5e-b984-46e0-bd03-49c65608fac8)
+![Screenshot 2024-07-01 140528](https://github.com/Shubhr457/Backend-App-shortenURL/assets/136572711/1be3582b-9341-47ae-af51-c0a4161ea371)
 
 
 *Developed by Shubh Rathore*
